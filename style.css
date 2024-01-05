@@ -1,0 +1,73 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.header-section {
+  background-color: #fff8f3;
+  padding-left: 214px;
+}
+/* nav style */
+.nav-title {
+  color: #181818;
+  font-family: open sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+}
+.nav-title span {
+  color: #fd6e0a;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 226px;
+}
+.nav-item {
+  display: flex;
+  gap: 51px;
+  list-style: none;
+  font-size: 20px;
+}
+.nav-item a {
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  padding: 18px 35px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 800;
+  border: none;
+}
+.primary-2{
+    background: transparent;
+    border: 1px solid #fd6e0a;
+    color: #fd6e0a;
+    margin-left: 30px;
+}
+.primary-2:hover{
+    background: #fd6e0a;
+    color: #fff;
+    transition: 0.5s;
+}
+.banner {
+  display: flex;
+  gap: 181px;
+}
+.left-section {
+  padding: 130px 0;
+}
+.left-section h1 {
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: normal;
+}
+.left-section h3{
+color: #474747;
+font-family: Open Sans;
+font-size: 45px;
+font-weight: 600;
+}
+
